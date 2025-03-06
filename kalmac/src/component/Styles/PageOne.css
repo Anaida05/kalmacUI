@@ -1,0 +1,130 @@
+.parentDiv {
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: relative;
+  padding: 50px;
+  background: linear-gradient(rgba(21, 0, 41, 0.6), rgba(21, 0, 41, 0.9)),
+    url("../images/pageOne.png");
+  /* background-image: url("./images/pageOne.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.upperDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.content {
+  max-width: 50%;
+  margin-top: -120px;
+}
+
+.content h1 {
+  font-size: 30px;
+  position: relative;
+}
+.curve h1 {
+  position: absolute;
+  top: 10px;
+  left: 140px;
+}
+
+.curve img {
+  position: absolute;
+  width: 120px;
+  top: 68px;
+}
+.content h1 span {
+  color: yellow;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.quote-btn,
+.whatsapp-btn {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.quote-btn {
+  background: #6782ff;
+  color: white;
+  width: Fixed (151px);
+  height: Fixed (42px);
+  border-radius: 8px;
+  padding: 10px 16px 10px 16px;
+  gap: 8px;
+}
+
+.whatsapp-btn {
+  width: Hug (151px);
+  height: Hug (42px);
+  background: #ffffff;
+  color: #6782ff;
+  padding: 9px 16px 9px 12px;
+  border-radius: 8px;
+  gap: 8px;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.form-container {
+  padding: 20px;
+  border-radius: 8px;
+  width: 350px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input,
+.form select,
+.form textarea {
+  margin: 5px 0;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  /* color: white; */
+}
+
+.form select {
+  appearance: none;
+}
+
+.form textarea {
+  height: 80px;
+  resize: none;
+}
+
+.submitBtn {
+  background: #6782ff;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.submitBtn:hover {
+  background: #556dff;
+}
+.group {
+  display: flex;
+  /* justify-content: end; */
+  position: absolute;
+  right: 15px;
+  bottom: auto;
+}
