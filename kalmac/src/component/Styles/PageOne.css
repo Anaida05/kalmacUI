@@ -26,7 +26,7 @@
 }
 .curve h1 {
   position: absolute;
-  top: 10px;
+  top: 35px;
   left: 140px;
 }
 
@@ -38,41 +38,10 @@
 .content h1 span {
   color: yellow;
 }
-
-.buttons {
-  margin-top: 20px;
-}
-
-.quote-btn,
-.whatsapp-btn {
-  margin-right: 10px;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-.quote-btn {
-  background: #6782ff;
-  color: white;
-  width: Fixed (151px);
-  height: Fixed (42px);
-  border-radius: 8px;
-  padding: 10px 16px 10px 16px;
-  gap: 8px;
-}
-
-.whatsapp-btn {
-  width: Hug (151px);
-  height: Hug (42px);
-  background: #ffffff;
-  color: #6782ff;
-  padding: 9px 16px 9px 12px;
-  border-radius: 8px;
-  gap: 8px;
-  font-family: DM Sans;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
+.ISO-P{
+  border: 1px solid black;
+  width: 350px;
+  margin-top: 29px;
 }
 
 .form-container {

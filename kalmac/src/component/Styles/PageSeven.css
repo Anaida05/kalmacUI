@@ -1,0 +1,91 @@
+.page-seven-container {
+  display: flex;
+  border: 1px solid black;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  width: 224vh;
+  height: 80vh;
+  align-items: center;
+  justify-content: space-around;
+  margin: -50px 0 0 5px;
+  background: linear-gradient(rgba(45, 29, 94, 0.8), rgba(42, 30, 88, 0.9)),
+    url("../images/PageSeven.png") no-repeat center/cover;
+}
+.option-parent-div {
+  display: flex;
+  gap: 20px;
+}
+.page-seven-quote {
+  width: 30%;
+  border: 1px solid black;
+}
+.curve{
+    width: 38vh;
+}
+.page-seven-form {
+  display: flex;
+  width: 40%;
+  height: 60vh;
+  color: white;
+  justify-content: space-around;
+  border: 1px solid black;
+  padding: 10px;
+}
+.page-seven-form label {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 5px;
+  display: block;
+}
+.option-div-left {
+  width: 50%;
+}
+.option-div-right {
+  width: 50%;
+}
+.page-seven-form select {
+  width: 70%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background: #ebf1f8;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+.fName {
+  width: 389px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background: #ebf1f8;
+  margin-bottom: 10px;
+}
+.option-email {
+  width: 27vh;
+  height: 30px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: none;
+  background: #ebf1f8;
+}
+.submit-btn {
+  background: #6782ff;
+  border: none;
+  width: 389px;
+  height: 42px;
+  top: 6787px;
+  left: 816px;
+  border-radius: 6px;
+}
+.page-seven-quote p{
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+}
+.page-seven-quote h2{
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    font-family: "DM Sasans 36pt";
+}

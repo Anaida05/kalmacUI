@@ -2,6 +2,7 @@ import React from "react";
 import "./Styles/PageOne.css";
 import curve from "../component/images/Vector 5.png";
 import group from "./images/Group.png";
+import Button from "./Button";
 const PageOne = () => {
   return (
     <section className="parentDiv">
@@ -14,14 +15,10 @@ const PageOne = () => {
               <img src={curve} alt="" />
             </span>
           </h1>
-          <p>
-            ISO training designed around your business needs—delivered when you
-            need it.
+          <p className="ISO-P">
+          ISO training designed around your business needs—delivered when you need it, focused on what matters, and built to deliver measurable results.
           </p>
-          <div className="buttons">
-            <button className="quote-btn">Get a Quote</button>
-            <button className="whatsapp-btn">WhatsApp Us</button>
-          </div>
+          <Button/>
         </div>
 
         <div className="form-container">
