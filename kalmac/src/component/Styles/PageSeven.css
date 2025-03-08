@@ -17,10 +17,11 @@
 }
 .page-seven-quote {
   width: 30%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .curve{
     width: 38vh;
+    margin-top: 3px;
 }
 .page-seven-form {
   display: flex;
@@ -28,7 +29,7 @@
   height: 60vh;
   color: white;
   justify-content: space-around;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 10px;
 }
 .page-seven-form label {

@@ -65,9 +65,12 @@ const PageOne = () => {
       </div>
       <div className="content">
         <h1>
-          Excellence Redefined: Kelmac's Training Solutions -{" "}
-          <span>Tailored</span>
-        </h1>
+          Excellence Redefined: Kelmac's Training Solutions -  </h1>
+          <span>
+            <h1>Tailored</h1>
+            <img  src={curve} alt="" />
+          </span>
+      
         <p>
           We address the frustration of generic training by offering customized
           ISO solutions that focus only on your critical compliance and
@@ -78,7 +81,7 @@ const PageOne = () => {
         </p>
       </div>
       <div className="group">
-        <img src={group} alt="" />
+        <img src={group} alt="group" />
       </div>
     </section>
   );

@@ -17,18 +17,21 @@
 }
 
 .whatsapp-btn {
-  width: Hug (151px);
-  height: Hug (42px);
+  width: 158px;
+  height: 42px;
   background: #ffffff;
   color: #6782ff;
-  padding: 9px 16px 9px 12px;
+  padding: 9px 10px;
   border-radius: 8px;
-  gap: 8px;
+  gap: 5px;
   font-family: DM Sans;
   font-weight: 700;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
 }
 .buttons {
   margin-top: 20px;
+  display: flex;
 }

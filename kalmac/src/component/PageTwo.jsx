@@ -7,6 +7,7 @@ import notepad from "./images/Icon4.png";
 import shield from "./images/Icon5.png";
 import curve from "./images/Vector 5.png";
 import audit from "./images/auditorlogo.png";
+import Button from "./Button";
 const PageTwo = () => {
   return (
     <div className="page-two-container">
@@ -49,8 +50,8 @@ const PageTwo = () => {
             learning experience directly to your organization—on your schedule,
             with your priorities in mind.
           </p>
-          <button className="quote-btn">Get a Quote</button>
-          <button className="whatsapp-btn">WhatsApp us</button>
+
+            <Button/>
         </div>
       </section>
 

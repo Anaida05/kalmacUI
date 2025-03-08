@@ -1,12 +1,12 @@
 import React from "react";
-import curve from "./images/Vector 5.png";
+import curve2 from "./images/Vector 2.png";
 import "./Styles/PageSeven.css";
 const PageSeven = () => {
   return (
     <div className="page-seven-container">
       <div className="page-seven-quote">
         <h2>Get a Quote</h2>
-        <img className="curve" src={curve} alt="curve" />
+        <img className="curve" src={curve2} alt="curve" />
         <p>
           Please take the time to complete the following form and provide us
           with as much information as you are able to ensure we can deal with

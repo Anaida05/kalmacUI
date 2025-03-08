@@ -29,32 +29,12 @@
   border-radius: 8px;
 }
 
-.quote-btn,
-.whatsapp-btn {
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.quote-btn {
-  background: #6782ff;
-  color: white;
-  border-radius: 8px;
-}
-
-.whatsapp-btn {
-  background: white;
-  color: #6782ff;
-  border-radius: 8px;
-  border: 1px solid #6782ff;
-}
 .lists {
   list-style: none;
 }
-.trainging-card-section{
+.trainging-card-section {
   display: flex;
-  gap:20px;
+  gap: 20px;
   justify-content: space-around;
 }
 .training-card {

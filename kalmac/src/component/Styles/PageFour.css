@@ -1,0 +1,64 @@
+.page-four-container{
+    /* border: 1px solid black; */
+    padding: 30px;
+}
+.page-four-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-four-heading h2{
+    margin-top: 20px;
+}
+.page-four-heading img{
+    margin: 3px 0 0  45px;
+    width: 28vh;
+}
+.page-four-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-four-card{
+    display: flex;
+    gap: 15px;
+    /* border: 1px solid black; */
+    justify-content: space-around; 
+}
+.cards-contaier{
+    /* border: 1px solid black; */
+    width: 14%;
+    height: 28vh;
+    border-radius: 19px;
+    padding: 15px;
+    margin-top:20px;
+    cursor: pointer;
+    transition: height 400ms;
+}
+.cards-cntainer-img{
+    margin: 10px;
+    width:45px;
+}
+.card-title{
+    color: white; 
+    font-weight: 600;
+    margin:10px;
+}
+.card-description{
+    /* border: 1px solid black; */
+    font-family: "DM Sans";
+    width: 206vh;
+    height: 20vh;
+    /* margin-top: 20px; */
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* border-radius: 15px; */
+    color: white;
+    padding: 10px;
+}
+.active-card{
+    height: 30vh;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}

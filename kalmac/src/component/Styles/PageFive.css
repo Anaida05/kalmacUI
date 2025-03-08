@@ -71,9 +71,10 @@
   color: #588dcf;
   text-align: start;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 30px;
   width: 180px;
-  line-height: 20px;
+  line-height: 100%;
+  margin-top: -15px;
   /* border: 1px solid black; */
 }
 .reasons-list-div {
@@ -83,12 +84,13 @@
   height: 250px;
   width: 280px;
   margin-right: 5px;
+  gap: 10px;
 }
 .num {
   color: #ffd019;
   font-family: "Koulen";
   font-weight: 400;
-  font-size: 95px;
+  font-size: 208px;
   width: 90px;
   bottom: 100px;
   left: 120px;
