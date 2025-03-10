@@ -68,7 +68,7 @@ const PageOne = () => {
           Excellence Redefined: Kelmac's Training Solutions -  </h1>
           <span>
             <h1>Tailored</h1>
-            <img  src={curve} alt="" />
+            <img className="curve2" src={curve} alt="" />
           </span>
       
         <p>

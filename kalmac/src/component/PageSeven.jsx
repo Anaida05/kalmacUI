@@ -6,7 +6,9 @@ const PageSeven = () => {
     <div className="page-seven-container">
       <div className="page-seven-quote">
         <h2>Get a Quote</h2>
-        <img className="curve" src={curve2} alt="curve" />
+        <img className="curve" src={curve2
+
+        } alt="curve" />
         <p>
           Please take the time to complete the following form and provide us
           with as much information as you are able to ensure we can deal with
@@ -31,7 +33,7 @@ const PageSeven = () => {
               </select>
               <br />
 
-              <label htmlFor="country">Training you are looking for</label>
+              <label htmlFor="country" style={{fontSize : "13px"}}>Training you are looking for</label>
               <br />
               <select name="country" id="">
                 <option value="India">Select Training</option>

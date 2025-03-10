@@ -35,6 +35,9 @@
   width: 120px;
   top: 68px;
 }
+.curve2{
+  width: 20vh
+}
 .content h1 span {
   color: yellow;
 }
@@ -69,6 +72,8 @@
 
 .form select {
   appearance: none;
+  width: 67vh;
+  border: none;
 }
 
 .form textarea {
@@ -85,6 +90,8 @@
   font-weight: bold;
   border-radius: 8px;
   transition: 0.3s;
+  width: 67vh;
+  margin-top: 10px;
 }
 
 .submitBtn:hover {
