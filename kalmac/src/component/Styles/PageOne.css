@@ -42,7 +42,7 @@
   color: yellow;
 }
 .ISO-P{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 350px;
   margin-top: 29px;
 }
@@ -52,7 +52,10 @@
   border-radius: 8px;
   width: 350px;
 }
-
+.form-container  input{
+  width: 120px;
+  /* background-color: red; */
+}
 .form {
   display: flex;
   flex-direction: column;
@@ -63,8 +66,9 @@
 .form textarea {
   margin: 5px 0;
   padding: 12px;
-  width: 100%;
+  width: 350px;
   border: none;
+  /* background-color: red; */
   border-radius: 8px;
   font-size: 14px;
   /* color: white; */
@@ -72,13 +76,14 @@
 
 .form select {
   appearance: none;
-  width: 67vh;
+  width: 375px;
   border: none;
 }
 
 .form textarea {
   height: 80px;
   resize: none;
+  width:355px ;
 }
 
 .submitBtn {
@@ -90,7 +95,7 @@
   font-weight: bold;
   border-radius: 8px;
   transition: 0.3s;
-  width: 67vh;
+  width: 64vh;
   margin-top: 10px;
 }
 

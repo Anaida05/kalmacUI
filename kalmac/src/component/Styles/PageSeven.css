@@ -3,11 +3,11 @@
   border: 1px solid black;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
-  width: 224vh;
+  width: 210vh;
   height: 80vh;
   align-items: center;
   justify-content: space-around;
-  margin: -50px 0 0 5px;
+  margin: -50px 0 0 9px;
   background: linear-gradient(rgba(45, 29, 94, 0.8), rgba(42, 30, 88, 0.9)),
     url("../images/PageSeven.png") no-repeat center/cover;
 }

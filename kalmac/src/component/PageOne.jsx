@@ -32,10 +32,11 @@ const PageOne = () => {
             <br />
             <label htmlFor="">Training you are looking for</label>
             <br />
-            <select required>
+            <select required >
               <option value="">Select training</option>
               <option value="">FullStack</option>
               <option value="">Node</option>
+              <option value="">React</option>
             </select>
             <label htmlFor="">Course Nature</label>
             <br />

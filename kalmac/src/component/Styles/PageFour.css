@@ -47,10 +47,11 @@
 .card-description{
     /* border: 1px solid black; */
     font-family: "DM Sans";
-    width: 206vh;
+    /* width: 200vh; */
     height: 20vh;
-    margin-left: -2px;
+    /* margin-left: 33px; */
     font-weight: 600;
+    margin: 0 15px 0 15px;
     font-size: 18px;
     line-height: 30px;
     /* border-radius: 15px; */
